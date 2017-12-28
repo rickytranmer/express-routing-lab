@@ -9,5 +9,5 @@ app.use(express.static('public'));
 app.use('/candies', candyRouter);
 
 app.listen(3000, function() {
-	console.log('eat my shorts');
+	console.log('port 3000');
 });
